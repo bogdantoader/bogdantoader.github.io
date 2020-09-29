@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Research</title>
+    <link rel="stylesheet" href="https://bogdantoader.github.io/css/style.css" />
+    <link rel="stylesheet" href="https://bogdantoader.github.io/css/fonts.css" />
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96935206-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-96935206-1');
+</script>
+
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="https://bogdantoader.github.io/">Home</a></li>
+      
+      <li><a href="https://bogdantoader.github.io/publications/">Publications</a></li>
+      
+      <li><a href="https://bogdantoader.github.io/teaching/">Teaching</a></li>
+      
+      <li><a href="https://bogdantoader.github.io/travelling/">Talks/Travelling</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Research</span></h1>
+
+
+</div>
+
+<main>
+
+
+<h1 id="stability-of-non-negative-super-resolution">Stability of non-negative super-resolution</h1>
+
+<!--![aaa](/example_signal.png)-->
+
+<p><em>Collaborators: Dr Armin Eftekhari, Prof Jared Tanner, Dr Andrew Thompson, Dr Hemant Tyagi</em></p>
+
+<p>The convolution of a discrete measure, <code>$x=\sum_{i=1}^ka_i\delta_{t_i}$</code>, with a local window function, <code>$\phi(s-t)$</code>, is a common model for a measurement device whose resolution is substantially lower than that of the objects being observed. Super-resolution concerns localising the point sources <code>$\{a_i,t_i\}_{i=1}^k$</code> with an accuracy beyond the essential support of <code>$\phi(s-t)$</code>, typically from <code>$m$</code> samples <code>$y(s_j)=\sum_{i=1}^k a_i\phi(s_j-t_i)+\eta_j$</code>, where <code>$\eta_j$</code> indicates an inexactness in the sample value.   We consider the setting of <code>$x$</code> being non-negative and seek to characterise all non-negative measures approximately consistent with the samples.</p>
+
+<p><img src="https://bogdantoader.github.io/img/example_signal.png" style="max-width:100%;min-width:40px;float:center;margin-right:5%;border-radius:4%" alt="signal" /></p>
+
+<p>We first show that <code>$x$</code> is the unique non-negative measure consistent with the samples provided the samples are exact, i.e. <code>$\eta_j=0$</code>, <code>$m\ge 2k+1$</code> samples are available, and <code>$\phi(s-t)$</code> generates a Chebyshev system. This is independent of how close the sample locations are and <em>does not rely on any regulariser beyond non-negativity</em>.</p>
+
+<p>Moreover, we characterise non-negative solutions <code>$\hat{x}$</code> consistent with the
+samples within the bound <code>$\sum_{j=1}^m\eta_j^2\le \delta^2$</code>.  Any such
+non-negative measure is within <code>${\mathcal O}(\delta^{1/7})$</code> of the
+discrete measure <code>$x$</code> generating the samples in the generalised
+Wasserstein distance.  Similarly, we show using somewhat different
+techniques that the integrals of <code>$\hat{x}$</code> and <code>$x$</code> over
+<code>$(t_i-\epsilon,t_i+\epsilon)$</code> are similarly close, converging to one
+another as <code>$\epsilon$</code> and <code>$\delta$</code> approach zero.  We also show how to
+make these general results, for windows that form a Chebyshev system,
+precise for the case of <code>$\phi(s-t)$</code> being a Gaussian window.</p>
+
+<p>The main innovation of these results is that non-negativity alone is
+sufficient to localise point sources beyond the essential sensor
+resolution and that, while regularisers such as total variation might
+be particularly effective, they are not required in the non-negative setting.</p>
+
+<h4 id="preprint">Preprint:</h4>
+
+<ul>
+<li><em>Sparse non-negative super-resolution &mdash; simplified and stabilised</em> </br>
+Armin Eftekhari, Jared Tanner, Andrew Thompson, Bogdan Toader and Hemant Tyagi</br>
+Submitted
+<a href="https://arxiv.org/abs/1804.01490">[arXiv]</a></li>
+</ul>
+
+<h4 id="conference-paper">Conference paper:</h4>
+
+<ul>
+<li><em>Non-negative super-resolution is stable</em> </br>
+Armin Eftekhari, Jared Tanner, Andrew Thompson, Bogdan Toader and Hemant Tyagi</br>
+Presented at <a href="https://2018.ieeedatascience.org">IEEE Data Science Workshop 2018</a>, EPFL</br>
+<a href="https://ieeexplore.ieee.org/document/8439120/">[IEEE Xplore]</a>
+<a href="http://sigport.org/documents/non-negative-super-resolution-stable">[SigPort]</a>
+<a href="https://bogdantoader.github.io/ET4_superresolution_dsw2018.pdf">[Paper]</a>
+<a href="https://bogdantoader.github.io/ieee_dsw_poster.pdf">[Poster]</a><br /></li>
+</ul>
+
+<p>​</p>
+
+<p>​</p>
+
+<p>​</p>
+
+<h1 id="other-work">Other work</h1>
+
+<p>During the first year of the <a href="https://www.maths.ox.ac.uk/study-here/postgraduate-study/industrially-focused-mathematical-modelling-epsrc-cdt">InFoMM CDT</a>, I worked on two 10 week mini-projects with the National Physical Laboratory and Culham Centre for Fusion Energy respectively.</p>
+
+<h3 id="improved-source-detection-from-hydrophone-data">Improved source detection from hydrophone data</h3>
+
+<p><em>Collaborators: Dr Stephane Chretien, Dr Peter Harris, Prof Jared Tanner, Dr Andrew Thompson</em></p>
+
+<p>Analysed how compressed sensing can be applied to a problem on ship localisation from measurements of the sound in the shipping lane, proposed by the National Physical Laboratory.</p>
+
+<p><a href="https://bogdantoader.github.io/InFoMM_Miniproject1.pdf">[Lay report]</a></p>
+
+<h3 id="computing-periodic-orbits-of-odes-with-deflation">Computing periodic orbits of ODEs with deflation</h3>
+
+<p><em>Collaborators: Dr Wayne Arter, Prof Patrick Farrell</em></p>
+
+<p>Used deflation to find multiple periodic solutions to a system of ODEs that describes the behaviour of plasma. Problem proposed by Culham Centre for Fusion Energy.</p>
+
+<p><a href="https://bogdantoader.github.io/InFoMM_Miniproject2.pdf">[Lay report]</a></p>
+
+</main>
+
+  <footer>
+  
+<script src="https://bogdantoader.github.io/js/math-code.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+
+
+
+
+  
+  <hr/>
+  <a href="mailto:bt382@cam.ac.uk">Email</a> | <a href="https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&amp;hl=en">Scholar</a> |<a href="https://www.linkedin.com/in/bogdan-toader/">LinkedIn</a> | <a href="https://github.com/bogdantoader">GitHub</a>
+  
+  </footer>
+  </body>
+</html>
+
