@@ -1,66 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bogdan Toader</title>
-    <link>https://bogdantoader.github.io/index.xml</link>
+    <link>https://bogdantoader.github.io/</link>
     <description>Recent content on Bogdan Toader</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="https://bogdantoader.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <language>en-us</language><atom:link href="https://bogdantoader.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publications</title>
       <link>https://bogdantoader.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bogdantoader.github.io/publications/</guid>
-      <description>
-
-&lt;h3 id=&#34;preprints&#34;&gt;Preprints:&lt;/h3&gt;
-
-&lt;ol reversed&gt;
-  &lt;li&gt;
-    S. Chretien, A. Thompson, B. Toader&lt;/br&gt;
-    &lt;a href=&#34;../papers/bt_superres_dual_pert.pdf&#34;&gt;&lt;i&gt;The dual approach to non-negative super-resolution: perturbation analysis&lt;/i&gt;&lt;/a&gt;&lt;/br&gt;
-    &lt;a href=https://arxiv.org/abs/2007.02708&gt;[arXiv]&lt;/a&gt;, 2020
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;journal-articles-and-conference-proceedings&#34;&gt;Journal articles and conference proceedings:&lt;/h3&gt;
-
-&lt;ol reversed&gt;
-  &lt;li&gt;
-    A. Eftekhari, J. Tanner, A. Thompson, B. Toader and H. Tyagi&lt;/br&gt;
-    &lt;a href=&#34;../papers/acha_bt_superres.pdf&#34;&gt;&lt;i&gt;Sparse non-negative super-resolution --- simplified and stabilised&lt;/i&gt;&lt;/a&gt;&lt;/br&gt;
-    Applied and Computational Harmonic Analysis, 2019
-  &lt;/li&gt;&lt;/br&gt;
-  &lt;li&gt;
-    S. Chretien, A. Thompson, B. Toader&lt;/br&gt;
-    &lt;a href=&#34;../papers/bt_sampta_dual_rec.pdf&#34;&gt;&lt;i&gt;The dual approach to non-negative super-resolution: 
-      impact on primal reconstruction accuracy&lt;/i&gt;&lt;/a&gt;&lt;/br&gt;
-    2019 13th International conference on Sampling Theory and Applications (SampTA), 2019
-  &lt;/li&gt;&lt;/br&gt;
-  &lt;li&gt;
-    W. Guo, B. Toader, R. Feier, G. Mosquera, F. Ying, S. Oh, M. Williams, A. Krupp&lt;/br&gt;
-    &lt;a href=&#34;../papers/Guo2019_Article_GlobalAirTransportComplexNetwo.pdf&#34;&gt;&lt;i&gt;Global air transport complex network: multi-scale analysis&lt;/i&gt;&lt;/a&gt;&lt;/br&gt;
-    Springer Nature Applied Sciences (SNAS), vol.1, 680, 2019
-
-  &lt;/li&gt;
-  &lt;/li&gt;&lt;/br&gt;
-  &lt;li&gt;
-    A. Eftekhari, J. Tanner, A. Thompson, B. Toader and H. Tyagi&lt;/br&gt;
-    &lt;a href=&#34;../papers/ET4_superresolution_dsw2018.pdf&#34;&gt;&lt;i&gt;
-    Non-negative super-resolution is stable&lt;/i&gt;&lt;/a&gt; &lt;/br&gt;
-    2018 IEEE Data Science Workshop (DSW), 2018 
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-</description>
+      <description>Preprints:  B. Toader, J. Boulanger, Y. Korolev, M. O. Lenz, J. Manton, C.-B. Schönlieb, L. Mureşan Image reconstruction in light-sheet microscopy: spatially varying deconvolution and mixed noise 2021   S. Chrétien, A. Thompson, B. Toader The dual approach to non-negative super-resolution: perturbation analysis 2020  Journal articles and conference proceedings:  A. Eftekhari, J. Tanner, A. Thompson, B. Toader and H. Tyagi Sparse non-negative super-resolution --- simplified and stabilised Applied and Computational Harmonic Analysis, 2019   S.</description>
     </item>
     
     <item>
@@ -69,172 +21,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bogdantoader.github.io/research/</guid>
-      <description>
-
-&lt;h1 id=&#34;stability-of-non-negative-super-resolution&#34;&gt;Stability of non-negative super-resolution&lt;/h1&gt;
-
-&lt;!--![aaa](/example_signal.png)--&gt;
-
-&lt;p&gt;&lt;em&gt;Collaborators: Dr Armin Eftekhari, Prof Jared Tanner, Dr Andrew Thompson, Dr Hemant Tyagi&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The convolution of a discrete measure, &lt;code&gt;$x=\sum_{i=1}^ka_i\delta_{t_i}$&lt;/code&gt;, with a local window function, &lt;code&gt;$\phi(s-t)$&lt;/code&gt;, is a common model for a measurement device whose resolution is substantially lower than that of the objects being observed. Super-resolution concerns localising the point sources &lt;code&gt;$\{a_i,t_i\}_{i=1}^k$&lt;/code&gt; with an accuracy beyond the essential support of &lt;code&gt;$\phi(s-t)$&lt;/code&gt;, typically from &lt;code&gt;$m$&lt;/code&gt; samples &lt;code&gt;$y(s_j)=\sum_{i=1}^k a_i\phi(s_j-t_i)+\eta_j$&lt;/code&gt;, where &lt;code&gt;$\eta_j$&lt;/code&gt; indicates an inexactness in the sample value.   We consider the setting of &lt;code&gt;$x$&lt;/code&gt; being non-negative and seek to characterise all non-negative measures approximately consistent with the samples.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://bogdantoader.github.io/img/example_signal.png&#34; style=&#34;max-width:100%;min-width:40px;float:center;margin-right:5%;border-radius:4%&#34; alt=&#34;signal&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We first show that &lt;code&gt;$x$&lt;/code&gt; is the unique non-negative measure consistent with the samples provided the samples are exact, i.e. &lt;code&gt;$\eta_j=0$&lt;/code&gt;, &lt;code&gt;$m\ge 2k+1$&lt;/code&gt; samples are available, and &lt;code&gt;$\phi(s-t)$&lt;/code&gt; generates a Chebyshev system. This is independent of how close the sample locations are and &lt;em&gt;does not rely on any regulariser beyond non-negativity&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Moreover, we characterise non-negative solutions &lt;code&gt;$\hat{x}$&lt;/code&gt; consistent with the
-samples within the bound &lt;code&gt;$\sum_{j=1}^m\eta_j^2\le \delta^2$&lt;/code&gt;.  Any such
-non-negative measure is within &lt;code&gt;${\mathcal O}(\delta^{1/7})$&lt;/code&gt; of the
-discrete measure &lt;code&gt;$x$&lt;/code&gt; generating the samples in the generalised
-Wasserstein distance.  Similarly, we show using somewhat different
-techniques that the integrals of &lt;code&gt;$\hat{x}$&lt;/code&gt; and &lt;code&gt;$x$&lt;/code&gt; over
-&lt;code&gt;$(t_i-\epsilon,t_i+\epsilon)$&lt;/code&gt; are similarly close, converging to one
-another as &lt;code&gt;$\epsilon$&lt;/code&gt; and &lt;code&gt;$\delta$&lt;/code&gt; approach zero.  We also show how to
-make these general results, for windows that form a Chebyshev system,
-precise for the case of &lt;code&gt;$\phi(s-t)$&lt;/code&gt; being a Gaussian window.&lt;/p&gt;
-
-&lt;p&gt;The main innovation of these results is that non-negativity alone is
-sufficient to localise point sources beyond the essential sensor
-resolution and that, while regularisers such as total variation might
-be particularly effective, they are not required in the non-negative setting.&lt;/p&gt;
-
-&lt;h4 id=&#34;preprint&#34;&gt;Preprint:&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Sparse non-negative super-resolution &amp;mdash; simplified and stabilised&lt;/em&gt; &lt;/br&gt;
-Armin Eftekhari, Jared Tanner, Andrew Thompson, Bogdan Toader and Hemant Tyagi&lt;/br&gt;
-Submitted
-&lt;a href=&#34;https://arxiv.org/abs/1804.01490&#34;&gt;[arXiv]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;conference-paper&#34;&gt;Conference paper:&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Non-negative super-resolution is stable&lt;/em&gt; &lt;/br&gt;
-Armin Eftekhari, Jared Tanner, Andrew Thompson, Bogdan Toader and Hemant Tyagi&lt;/br&gt;
-Presented at &lt;a href=&#34;https://2018.ieeedatascience.org&#34;&gt;IEEE Data Science Workshop 2018&lt;/a&gt;, EPFL&lt;/br&gt;
-&lt;a href=&#34;https://ieeexplore.ieee.org/document/8439120/&#34;&gt;[IEEE Xplore]&lt;/a&gt;
-&lt;a href=&#34;http://sigport.org/documents/non-negative-super-resolution-stable&#34;&gt;[SigPort]&lt;/a&gt;
-&lt;a href=&#34;https://bogdantoader.github.io/ET4_superresolution_dsw2018.pdf&#34;&gt;[Paper]&lt;/a&gt;
-&lt;a href=&#34;https://bogdantoader.github.io/ieee_dsw_poster.pdf&#34;&gt;[Poster]&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-
-&lt;h1 id=&#34;other-work&#34;&gt;Other work&lt;/h1&gt;
-
-&lt;p&gt;During the first year of the &lt;a href=&#34;https://www.maths.ox.ac.uk/study-here/postgraduate-study/industrially-focused-mathematical-modelling-epsrc-cdt&#34;&gt;InFoMM CDT&lt;/a&gt;, I worked on two 10 week mini-projects with the National Physical Laboratory and Culham Centre for Fusion Energy respectively.&lt;/p&gt;
-
-&lt;h3 id=&#34;improved-source-detection-from-hydrophone-data&#34;&gt;Improved source detection from hydrophone data&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Collaborators: Dr Stephane Chretien, Dr Peter Harris, Prof Jared Tanner, Dr Andrew Thompson&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Analysed how compressed sensing can be applied to a problem on ship localisation from measurements of the sound in the shipping lane, proposed by the National Physical Laboratory.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://bogdantoader.github.io/InFoMM_Miniproject1.pdf&#34;&gt;[Lay report]&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;computing-periodic-orbits-of-odes-with-deflation&#34;&gt;Computing periodic orbits of ODEs with deflation&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Collaborators: Dr Wayne Arter, Prof Patrick Farrell&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Used deflation to find multiple periodic solutions to a system of ODEs that describes the behaviour of plasma. Problem proposed by Culham Centre for Fusion Energy.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://bogdantoader.github.io/InFoMM_Miniproject2.pdf&#34;&gt;[Lay report]&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Stability of non-negative super-resolution  Collaborators: Dr Armin Eftekhari, Prof Jared Tanner, Dr Andrew Thompson, Dr Hemant Tyagi
+The convolution of a discrete measure, $x=\sum_{i=1}^ka_i\delta_{t_i}$, with a local window function, $\phi(s-t)$, is a common model for a measurement device whose resolution is substantially lower than that of the objects being observed. Super-resolution concerns localising the point sources $\{a_i,t_i\}_{i=1}^k$ with an accuracy beyond the essential support of $\phi(s-t)$, typically from $m$ samples $y(s_j)=\sum_{i=1}^k a_i\phi(s_j-t_i)+\eta_j$, where $\eta_j$ indicates an inexactness in the sample value.</description>
     </item>
     
     <item>
-      <title>Talks/Travelling</title>
-      <link>https://bogdantoader.github.io/travelling/</link>
+      <title>Talks</title>
+      <link>https://bogdantoader.github.io/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bogdantoader.github.io/travelling/</guid>
-      <description>
-
-&lt;h3 id=&#34;2020&#34;&gt;2020&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.rms.org.uk/lsfm2020.html&#34;&gt;Virtual 12th Light Sheet Fluorescence Microscopy Conference 2020&lt;/a&gt;, &lt;strong&gt;online&lt;/strong&gt; &amp;ndash; &lt;em&gt;oral presentation&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.siam.org/conferences/cm/conference/is20&#34;&gt;SIAM Conference on Imaging Science (IS20)&lt;/a&gt;, &lt;strong&gt;online&lt;/strong&gt; &amp;ndash; &lt;em&gt;poster presentation&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.quantitativebioimaging.com/qbi2020/&#34;&gt;Quantitative BioImaging Conference (QBI 2020)&lt;/a&gt;, &lt;strong&gt;Oxford&lt;/strong&gt;, UK &amp;ndash; &lt;em&gt;poster presentation&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;2019&#34;&gt;2019&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.turing.ac.uk/events/data-study-group-december-2019&#34;&gt;Data Study Group&lt;/a&gt;, Alan Turing Institute, &lt;strong&gt;London&lt;/strong&gt;, UK&lt;/br&gt;
-&lt;em&gt;Implemented deep learning based solution for image segmentation applied to brighfield microscopy data,
-problem proposed by Dstl&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://iccopt2019.berlin&#34;&gt;International Conference on Continuous Optimization (ICCOPT 2019)&lt;/a&gt;, &lt;strong&gt;Berlin&lt;/strong&gt;, Germany &amp;ndash; &lt;em&gt;oral presentation&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://sampta2019.sciencesconf.org&#34;&gt;2019 13th International Conference on Sampling Theory and Applications (SampTA 2019)&lt;/a&gt;, &lt;strong&gt;Bordeaux&lt;/strong&gt;, France &amp;ndash; &lt;em&gt;oral presentation&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://minz.org.nz/2019/&#34;&gt;Mathematics in Industry New Zealand Workshop&lt;/a&gt;, &lt;strong&gt;Auckland&lt;/strong&gt;, New Zealand&lt;/br&gt;
-&lt;em&gt;Implemented optimal transport based solution for decomposing spectrum of cheese samples into different components (fat, protein etc.), problem proposed by Fonterra&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;InFoMM Annual Meeting 2019, &lt;strong&gt;Oxford&lt;/strong&gt;, UK &amp;ndash; &lt;em&gt;Oral presentation&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://imaging-in-paris.github.io/semester2019/school/&#34;&gt;Mathematics of Imaging CIRM Winter School&lt;/a&gt;, &lt;strong&gt;Marseille&lt;/strong&gt;, France &amp;ndash; Poster presentation&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;2018&#34;&gt;2018&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cs2018.sciencesconf.org&#34;&gt;Curves and Surfaces&lt;/a&gt;,
-&lt;strong&gt;Arcachon&lt;/strong&gt;, France &amp;ndash; &lt;em&gt;Oral presentation&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ima.org.uk/7149/6thimanlao/&#34;&gt;6th IMA Conference on Numerical Linear Algebra and Optimization&lt;/a&gt;,
-&lt;strong&gt;Birmingham&lt;/strong&gt;, UK &amp;ndash; &lt;em&gt;Oral presentation&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://mathforbusiness.ktu.edu/en&#34;&gt;142nd European Study Group with Industry&lt;/a&gt;,
-&lt;strong&gt;Palanga&lt;/strong&gt;, Lithuania&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://2018.ieeedatascience.org&#34;&gt;IEEE Data Science Workshop&lt;/a&gt;,
-&lt;strong&gt;Lausanne&lt;/strong&gt;, Switzerland &amp;ndash; &lt;em&gt;Poster presentation&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.maths.ox.ac.uk/study-here/postgraduate-study/industrially-focused-mathematical-modelling-epsrc-cdt/infomm-events--3&#34;&gt;InFoMM Annual Meeting 2018&lt;/a&gt;,
-&lt;strong&gt;Oxford&lt;/strong&gt;, UK &amp;ndash; &lt;em&gt;Oral presentation&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Numerical Analysis Seminar, &lt;strong&gt;Oxford&lt;/strong&gt;, UK &amp;ndash; &lt;em&gt;Oral presentation&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://obd.kaust.edu.sa&#34;&gt;Research Workshop on Optimization and Big Data&lt;/a&gt;,
-&lt;strong&gt;KAUST&lt;/strong&gt;, Saudi Arabia &amp;ndash; &lt;em&gt;Poster presentation&lt;/em&gt;
-&lt;a href=&#34;http://epostersonline.com/obd2018/node/80&#34;&gt;[eposter link]&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://maths.manchester.ac.uk/siam-ukie/meetings.html&#34;&gt;SIAM UKIE Annual Meeting&lt;/a&gt;,
-&lt;strong&gt;Southampton&lt;/strong&gt;, UK &amp;ndash; &lt;em&gt;Poster presentation&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;2017&#34;&gt;2017&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://regularize-in-paris.github.io&#34;&gt;Summer School on Structured Regularization for High-Dimensional Data Analysis&lt;/a&gt;,
-Henri Poincare Institute, &lt;strong&gt;Paris&lt;/strong&gt;, France&lt;/li&gt;
-&lt;li&gt;InFoMM Group Meeting, &lt;strong&gt;Oxford&lt;/strong&gt;, UK &amp;ndash; &lt;em&gt;Oral presentation&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;InFoMM Annual Meeting 2017, &lt;strong&gt;Oxford&lt;/strong&gt;, UK &amp;ndash; &lt;em&gt;Poster presentation&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;2016&#34;&gt;2016&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.turing.ac.uk/data-study-groups/&#34;&gt;Data Study Group&lt;/a&gt;, Alan Turing Institute,
-&lt;strong&gt;London&lt;/strong&gt;, UK&lt;/br&gt;
-&lt;em&gt;Implemented network model to solve problem proposed by Airbus&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.maths.dur.ac.uk/events/Meetings/ESGI_116/&#34;&gt;116th European Study Group with Industry&lt;/a&gt;,
-&lt;strong&gt;Durham&lt;/strong&gt;, UK&lt;/br&gt;
-&lt;em&gt;Implemented mixed integer programming solution to problem proposed by Syngenta&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.maths.ox.ac.uk/study-here/postgraduate-study/industrially-focused-mathematical-modelling-epsrc-cdt/infomm-events--1&#34;&gt;InFoMM Graduate Modelling Camp&lt;/a&gt;,
-&lt;strong&gt;Oxford&lt;/strong&gt;, UK &amp;ndash; &lt;em&gt;Won IMA Best Team Performance prize&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://bogdantoader.github.io/talks/</guid>
+      <description>2021  Focus on Microscopy 2021 Online Conference, online &amp;ndash; oral presentation  2020   Virtual 12th Light Sheet Fluorescence Microscopy Conference 2020, online &amp;ndash; oral presentation
+  SIAM Conference on Imaging Science (IS20), online &amp;ndash; poster presentation
+  Quantitative BioImaging Conference (QBI 2020), Oxford, UK &amp;ndash; poster presentation
+  2019   Data Study Group, Alan Turing Institute, London, UK Implemented deep learning based solution for image segmentation applied to brighfield microscopy data, problem proposed by Dstl</description>
     </item>
     
     <item>
@@ -243,27 +43,11 @@ Henri Poincare Institute, &lt;strong&gt;Paris&lt;/strong&gt;, France&lt;/li&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bogdantoader.github.io/teaching/</guid>
-      <description>
-
-&lt;h3 id=&#34;b6-3-https-courses-maths-ox-ac-uk-node-4325-integer-programming-ta&#34;&gt;&lt;a href=&#34;https://courses.maths.ox.ac.uk/node/4325&#34;&gt;B6.3&lt;/a&gt; Integer Programming - TA&lt;/h3&gt;
-
-&lt;p&gt;Michaelmas term 2016, 2017, University of Oxford&lt;br/&gt;
-Lecturer: Prof. Raphael Hauser&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;c6-2-https-courses-maths-ox-ac-uk-node-4888-continuous-optimisation-ta&#34;&gt;&lt;a href=&#34;https://courses.maths.ox.ac.uk/node/4888&#34;&gt;C6.2&lt;/a&gt; Continuous Optimisation - TA&lt;/h3&gt;
-
-&lt;p&gt;Hilary term 2017, 2018, University of Oxford&lt;br/&gt;
-Lecturer: Prof. Coralia Cartis&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;prelims-https-courses-maths-ox-ac-uk-node-5677-computational-mathematics-demonstrator&#34;&gt;&lt;a href=&#34;https://courses.maths.ox.ac.uk/node/5677&#34;&gt;Prelims&lt;/a&gt; Computational Mathematics - Demonstrator&lt;/h3&gt;
-
-&lt;p&gt;Michaelmas term 2016, Hilary term 2017, University of Oxford&lt;br/&gt;
-Lecturer: Dr. Andrew Thompson&lt;/p&gt;
-</description>
+      <description>UK Graduate Modelling Camp - Mentor Newton Gateway to Mathematics, 2021, Cambridge
+ Numerical Analysis - Supervisions Michaelmas and Lent terms 2020, University of Cambridge
+ Integer Programming - TA Michaelmas term 2016, 2017, University of Oxford
+ Continuous Optimisation - TA Hilary term 2017, 2018, University of Oxford
+ Computational Mathematics - Demonstrator Michaelmas term 2016, Hilary term 2017, University of Oxford</description>
     </item>
     
   </channel>

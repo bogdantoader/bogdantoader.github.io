@@ -1,24 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bogdantoader.github.io/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://bogdantoader.github.io/categories/</loc>
+  </url><url>
     <loc>https://bogdantoader.github.io/publications/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://bogdantoader.github.io/research/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bogdantoader.github.io/travelling/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://bogdantoader.github.io/tags/</loc>
+  </url><url>
+    <loc>https://bogdantoader.github.io/talks/</loc>
+  </url><url>
     <loc>https://bogdantoader.github.io/teaching/</loc>
   </url>
-  
 </urlset>
