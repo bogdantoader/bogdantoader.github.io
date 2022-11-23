@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bogdantoader.github.io/publications/</guid>
-      <description>Preprints: B. Toader, J. Boulanger, Y. Korolev, M. O. Lenz, J. Manton, C.-B. Schönlieb, L. Mureşan Image reconstruction in light-sheet microscopy: spatially varying deconvolution and mixed noise 2021 S. Chrétien, A. Thompson, B. Toader The dual approach to non-negative super-resolution: perturbation analysis 2020 Journal articles and conference proceedings: A. Eftekhari, J. Tanner, A. Thompson, B. Toader and H. Tyagi Sparse non-negative super-resolution --- simplified and stabilised Applied and Computational Harmonic Analysis, 2019 S.</description>
+      <description>Methods for Cryo-EM Single Particle Reconstruction of Macromolecules Having Continuous Heterogeneity B. Toader, F. J. Sigworth, R. R. Lederman submitted, arXiv:2211.10744, 2022 Integrating molecular models into CryoEM heterogeneity analysis using scalable high-resolution deep Gaussian mixture models M. Chen, B. Toader, R. R. Lederman submitted, arXiv:2211.10518, 2022 Image reconstruction in light-sheet microscopy: spatially varying deconvolution and mixed noise B. Toader, J. Boulanger, Y. Korolev, M. O. Lenz, J. Manton, C.-B. Schönlieb, L.</description>
     </item>
     
     <item>
@@ -31,10 +31,11 @@ The convolution of a discrete measure, $x=\sum_{i=1}^ka_i\delta_{t_i}$, with a l
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bogdantoader.github.io/talks/</guid>
-      <description>2021 Focus on Microscopy 2021 Online Conference, online &amp;ndash; oral presentation 2020 Virtual 12th Light Sheet Fluorescence Microscopy Conference 2020, online &amp;ndash; oral presentation
-SIAM Conference on Imaging Science (IS20), online &amp;ndash; poster presentation
-Quantitative BioImaging Conference (QBI 2020), Oxford, UK &amp;ndash; poster presentation
-2019 Data Study Group, Alan Turing Institute, London, UK Implemented deep learning based solution for image segmentation applied to brighfield microscopy data, problem proposed by Dstl</description>
+      <description>2022 IPAM Seminar, UCLA, US &amp;ndash; Oral presentation
+SIAM Conference on Mathematics of Data Science (MDS22), San Diego, US &amp;ndash; Poster presentation
+PIMS Workshop on Mathematical and Computational Challenges in Cryo-EM, Vancouver, Canada &amp;ndash; Oral presentation
+2021 Focus on Microscopy 2021 Online Conference, online &amp;ndash; Oral presentation 2020 Virtual 12th Light Sheet Fluorescence Microscopy Conference 2020, online &amp;ndash; Oral presentation
+SIAM Conference on Imaging Science (IS20), online &amp;ndash; Poster presentation</description>
     </item>
     
     <item>
