@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bogdantoader.github.io/publications/</guid>
-      <description>On Manifold Learning in Plato&#39;s Cave: Remarks on Manifold Learning and Physical Phenomena R. R. Lederman, B. Toader Submitted, arXiv:2304.14248, 2023 Methods for Cryo-EM Single Particle Reconstruction of Macromolecules Having Continuous Heterogeneity B. Toader, F. J. Sigworth, R. R. Lederman Journal of Molecular Biology, 2023 Integrating molecular models into CryoEM heterogeneity analysis using scalable high-resolution deep Gaussian mixture models M. Chen, B. Toader, R. R. Lederman Journal of Molecular Biology, 2023 Image reconstruction in light-sheet microscopy: spatially varying deconvolution and mixed noise B.</description>
+      <description>Academic articles On Manifold Learning in Plato&#39;s Cave: Remarks on Manifold Learning and Physical Phenomena R. R. Lederman, B. Toader International Conference on Sampling Theory and Applications (SampTA), 2023 Methods for Cryo-EM Single Particle Reconstruction of Macromolecules Having Continuous Heterogeneity B. Toader, F. J. Sigworth, R. R. Lederman Journal of Molecular Biology, 2023 Integrating molecular models into CryoEM heterogeneity analysis using scalable high-resolution deep Gaussian mixture models M. Chen, B. Toader, R.</description>
     </item>
     
     <item>
@@ -31,10 +31,12 @@ The convolution of a discrete measure, $x=\sum_{i=1}^ka_i\delta_{t_i}$, with a l
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bogdantoader.github.io/talks/</guid>
-      <description>2023 SIAM Conference on Computational Science and Engineering (CSE23), Amsterdam, The Netherlands – Mini-symposium presentation 2022 IPAM Seminar, UCLA, US &amp;ndash; Oral presentation
+      <description>2023 International Conference on Sampling Theory and Applications (SampTA 2023), Yale University, US &amp;ndash; Oral presentation
+Flatiron Institute CryoEM Summer Workshop, New York, US &amp;ndash; Poster presentation
+SIAM Conference on Computational Science and Engineering (CSE23), Amsterdam, The Netherlands – Mini-symposium presentation
+2022 IPAM Seminar, UCLA, US &amp;ndash; Oral presentation
 SIAM Conference on Mathematics of Data Science (MDS22), San Diego, US &amp;ndash; Poster presentation
-PIMS Workshop on Mathematical and Computational Challenges in Cryo-EM, Vancouver, Canada &amp;ndash; Oral presentation
-2021 Focus on Microscopy 2021 Online Conference, online &amp;ndash; Oral presentation 2020 Virtual 12th Light Sheet Fluorescence Microscopy Conference 2020, online &amp;ndash; Oral presentation</description>
+PIMS Workshop on Mathematical and Computational Challenges in Cryo-EM, Vancouver, Canada &amp;ndash; Oral presentation</description>
     </item>
     
     <item>
