@@ -4,53 +4,36 @@
     <title>Bogdan Toader</title>
     <link>https://bogdantoader.github.io/</link>
     <description>Recent content on Bogdan Toader</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://bogdantoader.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://bogdantoader.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publications</title>
       <link>https://bogdantoader.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://bogdantoader.github.io/publications/</guid>
-      <description>Academic articles Efficient high-resolution refinement in cryo-EM with stochastic gradient descent B. Toader, M. A. Brubaker, R. R. Lederman arXiv:2311.16100, 2023 On Manifold Learning in Plato&#39;s Cave: Remarks on Manifold Learning and Physical Phenomena R. R. Lederman, B. Toader International Conference on Sampling Theory and Applications (SampTA), 2023 Methods for Cryo-EM Single Particle Reconstruction of Macromolecules Having Continuous Heterogeneity B. Toader, F. J. Sigworth, R. R. Lederman Journal of Molecular Biology, 2023 Integrating molecular models into CryoEM heterogeneity analysis using scalable high-resolution deep Gaussian mixture models M.</description>
+      <description>Academic articles An image processing pipeline for electron cryo-tomography in RELION-5 A. Burt, B. Toader, R. Warshamanage, A. von Kügelgen, E. Pyle, J. Zivanov, D. Kimanius, T.A.M. Bharat, S.H.W. Scheres bioRxiv: https://doi.org/10.1101/2024.04.26.591129, 2024 Efficient high-resolution refinement in cryo-EM with stochastic gradient descent B. Toader, M. A. Brubaker, R. R. Lederman arXiv:2311.16100, 2023 On Manifold Learning in Plato&#39;s Cave: Remarks on Manifold Learning and Physical Phenomena R. R. Lederman, B. Toader International Conference on Sampling Theory and Applications (SampTA), 2023 Methods for Cryo-EM Single Particle Reconstruction of Macromolecules Having Continuous Heterogeneity B.</description>
     </item>
-    
     <item>
       <title>Research</title>
       <link>https://bogdantoader.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://bogdantoader.github.io/research/</guid>
-      <description>Stability of non-negative super-resolution Collaborators: Dr Armin Eftekhari, Prof Jared Tanner, Dr Andrew Thompson, Dr Hemant Tyagi
-The convolution of a discrete measure, $x=\sum_{i=1}^ka_i\delta_{t_i}$, with a local window function, $\phi(s-t)$, is a common model for a measurement device whose resolution is substantially lower than that of the objects being observed. Super-resolution concerns localising the point sources $\{a_i,t_i\}_{i=1}^k$ with an accuracy beyond the essential support of $\phi(s-t)$, typically from $m$ samples $y(s_j)=\sum_{i=1}^k a_i\phi(s_j-t_i)+\eta_j$, where $\eta_j$ indicates an inexactness in the sample value.</description>
+      <description>Stability of non-negative super-resolution Collaborators: Dr Armin Eftekhari, Prof Jared Tanner, Dr Andrew Thompson, Dr Hemant Tyagi&#xA;The convolution of a discrete measure, $x=\sum_{i=1}^ka_i\delta_{t_i}$, with a local window function, $\phi(s-t)$, is a common model for a measurement device whose resolution is substantially lower than that of the objects being observed. Super-resolution concerns localising the point sources $\{a_i,t_i\}_{i=1}^k$ with an accuracy beyond the essential support of $\phi(s-t)$, typically from $m$ samples $y(s_j)=\sum_{i=1}^k a_i\phi(s_j-t_i)+\eta_j$, where $\eta_j$ indicates an inexactness in the sample value.</description>
     </item>
-    
     <item>
       <title>Talks</title>
       <link>https://bogdantoader.github.io/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://bogdantoader.github.io/talks/</guid>
-      <description>2023 International Conference on Sampling Theory and Applications (SampTA 2023), Yale University, US &amp;ndash; Oral presentation
-Flatiron Institute CryoEM Summer Workshop, New York, US &amp;ndash; Poster presentation
-SIAM Conference on Computational Science and Engineering (CSE23), Amsterdam, The Netherlands – Mini-symposium presentation
-2022 IPAM Seminar, UCLA, US &amp;ndash; Oral presentation
-SIAM Conference on Mathematics of Data Science (MDS22), San Diego, US &amp;ndash; Poster presentation
-PIMS Workshop on Mathematical and Computational Challenges in Cryo-EM, Vancouver, Canada &amp;ndash; Oral presentation</description>
+      <description>2023 International Conference on Sampling Theory and Applications (SampTA 2023), Yale University, US &amp;ndash; Oral presentation&#xA;Flatiron Institute CryoEM Summer Workshop, New York, US &amp;ndash; Poster presentation&#xA;SIAM Conference on Computational Science and Engineering (CSE23), Amsterdam, The Netherlands – Mini-symposium presentation&#xA;2022 IPAM Seminar, UCLA, US &amp;ndash; Oral presentation&#xA;SIAM Conference on Mathematics of Data Science (MDS22), San Diego, US &amp;ndash; Poster presentation&#xA;PIMS Workshop on Mathematical and Computational Challenges in Cryo-EM, Vancouver, Canada &amp;ndash; Oral presentation</description>
     </item>
-    
     <item>
       <title>Teaching</title>
       <link>https://bogdantoader.github.io/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://bogdantoader.github.io/teaching/</guid>
-      <description>UK Graduate Modelling Camp - Mentor Newton Gateway to Mathematics, 2021, Cambridge
-Numerical Analysis - Supervisions Michaelmas and Lent terms 2020, University of Cambridge
-Integer Programming - TA Michaelmas term 2016, 2017, University of Oxford
-Continuous Optimisation - TA Hilary term 2017, 2018, University of Oxford
-Computational Mathematics - Demonstrator Michaelmas term 2016, Hilary term 2017, University of Oxford</description>
+      <description>UK Graduate Modelling Camp - Mentor Newton Gateway to Mathematics, 2021, Cambridge&#xA;Numerical Analysis - Supervisions Michaelmas and Lent terms 2020, University of Cambridge&#xA;Integer Programming - TA Michaelmas term 2016, 2017, University of Oxford&#xA;Continuous Optimisation - TA Hilary term 2017, 2018, University of Oxford&#xA;Computational Mathematics - Demonstrator Michaelmas term 2016, Hilary term 2017, University of Oxford</description>
     </item>
-    
   </channel>
 </rss>
